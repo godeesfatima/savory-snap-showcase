@@ -31,9 +31,11 @@ const Navigation = () => {
             >
               Menu
             </Link>
-            <Button size="sm" className="font-body">
-              Book a Table
-            </Button>
+            <Link to="/reservations">
+              <Button size="sm" className="font-body">
+                Book a Table
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
