@@ -48,13 +48,13 @@ const Menu = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <Navigation />
       
       <main className="pt-24 pb-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="font-display text-5xl md:text-6xl font-bold mb-6 text-foreground">
+            <h1 className="font-display text-5xl md:text-6xl font-bold mb-6 gradient-text animate-glow">
               Our Menu
             </h1>
             <p className="font-body text-muted-foreground text-xl max-w-3xl mx-auto leading-relaxed">
