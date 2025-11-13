@@ -31,9 +31,17 @@ const Navigation = () => {
             >
               Menu
             </Link>
-            <Link to="/reservations">
+            <Link 
+              to="/contact" 
+              className={`font-body transition-all hover:text-primary hover:scale-105 ${
+                isActive('/contact') ? 'text-primary glow' : 'text-foreground'
+              }`}
+            >
+              Contact
+            </Link>
+            <Link to="/order">
               <Button size="sm" className="font-body card-3d shadow-glow-purple hover:shadow-glow-pink">
-                Book a Table
+                اطلب الآن
               </Button>
             </Link>
           </div>
