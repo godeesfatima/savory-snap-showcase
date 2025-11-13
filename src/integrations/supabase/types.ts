@@ -185,6 +185,39 @@ export type Database = {
         }
         Relationships: []
       }
+      reviews: {
+        Row: {
+          comment: string
+          created_at: string
+          customer_name: string
+          email: string
+          id: string
+          rating: number
+          status: string
+          updated_at: string
+        }
+        Insert: {
+          comment: string
+          created_at?: string
+          customer_name: string
+          email: string
+          id?: string
+          rating: number
+          status?: string
+          updated_at?: string
+        }
+        Update: {
+          comment?: string
+          created_at?: string
+          customer_name?: string
+          email?: string
+          id?: string
+          rating?: number
+          status?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       site_content: {
         Row: {
           content_key: string
